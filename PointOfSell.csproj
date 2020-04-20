@@ -182,12 +182,6 @@
     <Compile Include="AddForms\frmPermationManeger.Designer.cs">
       <DependentUpon>frmPermationManeger.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddForms\frmPowersOfUsers.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddForms\frmPowersOfUsers.Designer.cs">
-      <DependentUpon>frmPowersOfUsers.cs</DependentUpon>
-    </Compile>
     <Compile Include="AddForms\frmResource.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -297,9 +291,6 @@
     <EmbeddedResource Include="AddForms\frmPermationManeger.resx">
       <DependentUpon>frmPermationManeger.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddForms\frmPowersOfUsers.resx">
-      <DependentUpon>frmPowersOfUsers.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AddForms\frmResource.resx">
       <DependentUpon>frmResource.cs</DependentUpon>
     </EmbeddedResource>
@@ -315,7 +306,6 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

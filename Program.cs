@@ -1,5 +1,4 @@
-﻿using PointOfSell.AddForms;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +16,7 @@ namespace PointOfSell
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPowersOfUsers());
+            Application.Run(new frmUserLogin());
         }
     }
 }
