@@ -15,6 +15,7 @@ namespace PointOfSell
         public Form1()
         {
             InitializeComponent();
+            //fffffffffffffffffffffffffffffffffffffffffff
         }
     }
 }
